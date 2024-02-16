@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+.alturaBoton{
+    height: 10rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alturaBoton2{
+    height: 10rem;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    height: 20rem;
+    background-color: peru;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.marge{
+    background-color: orange;
+    height: 40rem;
+}
+.homer{
+    background-color:chartreuse;
+    height: 20rem;
+    width: 50%;
+}
+.bart{
+    background-color:red;
+    height: 20rem;
+    width: 50%;
+}

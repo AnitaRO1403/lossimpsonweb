@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: yellow ;
+}
+
+.alturaBoton {
+    height: 10rem;
+    background-color: rgb(0, 255, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alturaBoton2 {
+    height: 10rem;
+    background-color: rgb(216, 112, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    height: 20rem;
+    background-color: rgb(98, 0, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/bardemoe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@import url('https://fonts.cdnfonts.com/css/harlequinflf');
+h2{
+    font-family: 'HarlequinFLF', sans-serif;
+    font-family: 'HarlequinExtraboldFLF', sans-serif;
+    font-size: 35px;
+}
+p{
+    font-family: 'HarlequinFLF', sans-serif;
+    font-family: 'HarlequinExtraboldFLF', sans-serif;
+    font-size: 30px;
+}
+.skiner {
+    height: 50rem;
+    font-size: 14pt;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-family: 'HarlequinExtraboldFLF', sans-serif;}
+
+.contenido {
+    background-color:rgb(30, 169, 255);
+    height: 50rem;
+    width: 100%;
+    font-size: 30pt;
+    line-height: 110px;
+}
+@import url('https://fonts.cdnfonts.com/css/faith-hope');
+a {
+    font-family: 'Faith Hope', sans-serif;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}

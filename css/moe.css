@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(45, 238, 48) ;
+}
+
+.alturaBoton {
+    height: 10rem;
+    background-color: rgb(0, 106, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alturaBoton2 {
+    height: 10rem;
+    background-color: rgb(227, 69, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    height: 20rem;
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@import url('https://fonts.cdnfonts.com/css/harlequinflf');
+h2{
+    font-family: 'HarlequinFLF', sans-serif;
+    font-family: 'HarlequinExtraboldFLF', sans-serif;
+    font-size: 35px;
+}
+p{
+    font-family: 'HarlequinFLF', sans-serif;
+    font-family: 'HarlequinExtraboldFLF', sans-serif;
+    font-size: 30px;
+}
+.moe {
+    height: 50rem;
+    font-family: 'HarlequinFLF', sans-serif;
+    font-family: 'HarlequinExtraboldFLF', sans-serif;
+
+}
+.contenido {
+    background-color:rgb(30, 199, 255);
+    height: 50rem;
+    width: 100%;
+    font-size: 30pt;
+    line-height: 110px;
+}
+@import url('https://fonts.cdnfonts.com/css/faith-hope');
+a {
+    font-family: 'Faith Hope', sans-serif;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}

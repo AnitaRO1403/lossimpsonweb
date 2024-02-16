@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+
+.boton1 {
+    height: 5rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Impact;
+}
+
+.Boton2 {
+    height: 5rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Impact;
+}
+.Boton3 {
+    height: 5rem;
+    background-color:rgb(208, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Impact;
+}
+
+.Boton4 {
+    height: 5rem;
+    background-color:rgb(127, 165, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Impact;
+}
+
+.slider {
+    height: 40rem;
+    background-color: rgb(185, 255, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marge {
+    background-color: rgb(206, 47, 255);
+    height: 40rem;
+}
+
+.homer {
+    background-color: rgb(0, 106, 255);
+    height: 20rem;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1400px) {
+    .homer{
+      background-color: black;
+    }
+  }
+
+.bart {
+    background-color: rgb(249, 50, 50);
+    height: 20rem;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1400px) {
+    .bart{
+      background-color: green;
+    }
+  }
+
+.lisa {
+    background-color: rgb(248, 199, 75);
+    height: 20rem;
+    width: 50%;
+}
+
+.maggie {
+    background-color: rgb(244, 6, 232);
+    height: 20rem;
+    width: 50%;
+}
+@import url('https://fonts.cdnfonts.com/css/faith-hope');
+a {
+    font-family: 'Faith Hope', sans-serif;
+    background-color: rgb(255, 98, 41);
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    background-color: rgb(77, 251, 193);
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.imagen{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
